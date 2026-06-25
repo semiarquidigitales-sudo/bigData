@@ -1,0 +1,48 @@
+{
+  "exitoso": true,
+  "errores": [],
+  "metricas_calidad": {
+    "filas": 160500,
+    "columnas": 12,
+    "nulos_total": 38696,
+    "pct_nulos": 2.01,
+    "duplicados": 10500,
+    "cumple_minimo": true
+  },
+  "metricas_limpieza": {
+    "filas_entrada": 160500,
+    "filas_salida": 150000,
+    "filas_eliminadas": 10500,
+    "nulos_resueltos": "36165",
+    "ram_antes_mb": 21.91,
+    "ram_despues_mb": 17.76,
+    "pct_reduccion_ram": 18.9,
+    "latencia_seg": 0.286
+  },
+  "metricas_rendimiento": {
+    "pasos": {
+      "carga_datos": {
+        "duracion": 0.5175,
+        "n_registros": 160500,
+        "throughput": 310128
+      },
+      "diagnostico": {
+        "duracion": 0.0875,
+        "n_registros": 0,
+        "throughput": 0
+      },
+      "limpieza": {
+        "duracion": 0.2944,
+        "n_registros": 150000,
+        "throughput": 509495
+      },
+      "guardar": {
+        "duracion": 1.4448,
+        "n_registros": 0,
+        "throughput": 0
+      }
+    },
+    "total_seg": 2.344,
+    "cuello_botella": "guardar"
+  }
+}

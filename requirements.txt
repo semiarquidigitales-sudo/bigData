@@ -1,0 +1,11 @@
+# Entregable 1 — Ingeniería de Software II & Big Data
+# Manipulación de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Soporte Parquet (formato eficiente de Big Data)
+pyarrow>=12.0.0
+
+# Visualización (para E2 y E3)
+matplotlib>=3.7.0
+seaborn>=0.12.0
